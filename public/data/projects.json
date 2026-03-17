@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "name": "Lingo",
+    "picture": "/lingo.jpg",
+    "linkPage": "https://lingo-70ed2.web.app/",
+    "linkGithub": "https://github.com/PrysiazhnaIra/Lingo",
+    "skills": ["React.js", "TypeScript", "Firebase", "Vite", "Formik", "Yup"],
+    "description": "This project is a React-based web application designed for a company that offers online language learning services. The app consists of three pages, featuring user authentication, teacher listings, and a favorites section. Below, you'll find an overview of the project's purpose, core technologies, and functionality."
+  },
+  {
+    "id": "2",
+    "name": "Restaurant Selva",
+    "picture": "/selva.jpg",
+    "linkPage": "https://test-tau-seven-62.vercel.app/",
+    "linkGithub": "https://github.com/PrysiazhnaIra/test",
+    "skills": ["React.js", "TypeScript", "Axios", "Vite"],
+    "description": "Meal Explorer is a React app that fetches meal data from an external API. The Menu page displays the first 5 meals, with a search bar that fetches matching meals as the user types. A loading indicator appears during data fetch, and user-friendly error messages are shown on failure. The Home page includes navigation, a banner, general info, top 3 meals, a MORE button to load additional meals, and contact details."
+  },
+  {
+    "id": "3",
+    "name": "Camper Hire",
+    "picture": "/camper.jpg",
+    "linkPage": "https://camper-hire.vercel.app/",
+    "linkGithub": "https://github.com/PrysiazhnaIra/CamperHire",
+    "skills": ["React.js", "Redux.js", "Axios", "Vite", "Formik"],
+    "description": "TravelTrucks is a web application designed for a camper rental company. This project implements the frontend of the application using modern web technologies to provide an intuitive and user-friendly experience. Users can browse available campers, filter them based on specific criteria, view detailed camper pages with reviews, and book campers directly through the website."
+  }
+]
