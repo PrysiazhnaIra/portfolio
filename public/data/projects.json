@@ -96,7 +96,7 @@
     "linkPage": "https://prysiazhnaira.github.io/Chocolate/",
     "linkGithub": "https://github.com/PrysiazhnaIra/Chocolate",
     "skills": ["JavaScript", "CSS", "HTML", "GitHub", "Git", "Figma"],
-    "description": "TCrafted a dynamic and responsive landing page for Chocolate, ensuring optimal performance across various screen sizes. The page provides a delightful user experience with features like smooth scrolling, well-placed anchor links, and real-time form validation. Additionally, user notifications are integrated to guide and assist users throughout their interactions. Key Features: Adaptive Design: Ensures seamless display on any device, enhancing accessibility. Interactive Servic Order Form: Simplifies the process of placing orders. Smooth Scrolling: Improves navigation flow and overall user engagement. Anchor Links: Allow users to quickly jump to key sections of the page. Real-time User Notifications: Utilized the izitoast library to provide instant feedback and support."
+    "description": "A dynamic and responsive landing page for Chocolate, ensuring optimal performance across various screen sizes. The page provides a delightful user experience with features like smooth scrolling, well-placed anchor links, and real-time form validation. Additionally, user notifications are integrated to guide and assist users troughout their interactions."
   },
   {
     "id": "12",
@@ -105,6 +105,6 @@
     "linkPage": "https://gand-g-band.vercel.app/",
     "linkGithub": "https://github.com/PrysiazhnaIra/GandGBand",
     "skills": ["JavaScript", "CSS", "HTML", "GitHub", "Git", "Adobe Photoshop"],
-    "description": "This project is a landing page for a band called GandGBand. It is a responsive website that is designed to look great on all devices, from phones to computers. The site has a modern and stylish design with a focus on user experience. The page includes a variety of features to enhance the user experience, such as smooth scrolling, well-placed anchor links, and real-time form validation. Additionally, user notifications are integrated to guide and assist users throughout their interactions. Key Features: Adaptive Design: Ensures seamless display on any device, enhancing accessibility. Interactive Servic Order Form: Simplifies the process of placing orders. Smooth Scrolling: Improves navigation flow and overall user engagement. Anchor Links: Allow users to quickly jump to key sections of the page. Real-time User Notifications: Utilized the izitoast library to provide instant feedback and support."
+    "description": "This project is a landing page for a band called GandGBand. It is a responsive website that is designed to look great on all devices, from phones to computers. The site has a modern and stylish design with a focus on user experience. he page includes a variety of features to enhance the user experiencTe, such as smooth scrolling, well-placed anchor links, and real-time form validation. Additionally, user notifications are integrated to guide and assist users throughout their interactions"
   }
 ]

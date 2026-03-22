@@ -13,6 +13,7 @@ interface Project {
 
 const Projects = () => {
   const [projects, setProjects] = useState<Project[]>([]);
+  const [expandedProjectId, setExpandedProjectId] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchProjects = async () => {
@@ -23,16 +24,17 @@ const Projects = () => {
     fetchProjects();
   }, []);
 
+  const handleToggle = (id: string) => {
+    setExpandedProjectId((prev) => (prev === id ? null : id));
+  };
+
   return (
     <section className={styles.projectsSection} id='projects'>
       <div className='container'>
         <div className={`${styles.sectionHeader} reveal`}>
           <h2 className={styles.sectionTitle}>
-            Selected <span className={styles.gradientText}>Works</span>
+            My <span className={styles.gradientText}>Projects</span>
           </h2>
-          <p className={styles.sectionSubtitle}>
-            Here are some of the projects I've built. The data is loaded dynamically.
-          </p>
         </div>
 
         <div className={styles.projectsGrid}>
@@ -46,6 +48,8 @@ const Projects = () => {
                 linkGithub={project.linkGithub}
                 description={project.description}
                 skills={project.skills}
+                isExpanded={expandedProjectId === project.id}
+                onToggle={() => handleToggle(project.id)}
               />
             </div>
           ))}

@@ -10,15 +10,17 @@
 }
 
 .sectionTitle {
-  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-size: 6rem;
   margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: -1px;
 }
 
-.sectionSubtitle {
-  color: var(--text-secondary);
-  font-size: 1.125rem;
-  max-width: 600px;
-  margin: 0 auto;
+.gradientText {
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .projectsGrid {
@@ -37,5 +39,17 @@
 @media screen and (min-width: 1200px) {
   .projectsGrid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sectionTitle {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .sectionTitle {
+    font-size: 3rem;
   }
 }

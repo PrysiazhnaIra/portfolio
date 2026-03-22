@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import styles from './ProjectCard.module.css';
 
 interface ProjectCardProps {
@@ -9,6 +8,8 @@ interface ProjectCardProps {
   linkGithub: string;
   skills: string[];
   description: string;
+  isExpanded: boolean;
+  onToggle: () => void;
 }
 
 const ProjectCard = ({
@@ -18,13 +19,9 @@ const ProjectCard = ({
   linkGithub,
   skills = [],
   description,
+  isExpanded,
+  onToggle,
 }: ProjectCardProps) => {
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  const toggleAccordion = () => {
-    setIsExpanded((prev) => !prev);
-  };
-
   return (
     <div className={styles.projectCard}>
       <div className={styles.projectImageWrapper}>
@@ -88,7 +85,7 @@ const ProjectCard = ({
         <div className={styles.accordionContainer}>
           <button 
             className={`${styles.accordionButton} ${isExpanded ? styles.active : ''}`}
-            onClick={toggleAccordion}
+            onClick={onToggle}
             aria-expanded={isExpanded}
           >
             <span>Project Details</span>
@@ -100,14 +97,7 @@ const ProjectCard = ({
             </svg>
           </button>
           
-          <div 
-            className={styles.accordionContent}
-            style={{ 
-              maxHeight: isExpanded ? '300px' : '0', 
-              opacity: isExpanded ? 1 : 0,
-              paddingTop: isExpanded ? '1rem' : '0',
-            }}
-          >
+          <div className={`${styles.accordionContent} ${isExpanded ? styles.expanded : ''}`}>
             <p className={styles.projectDescription}>{description}</p>
           </div>
         </div>

@@ -25,9 +25,8 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className={`${styles.heroVisual} reveal`} style={{ animationDelay: '0.5s' }}>
-          <div className={`${styles.glowOrb} ${styles.orb1}`}></div>
-          <div className={`${styles.glowOrb} ${styles.orb2}`}></div>
+        <div className={styles.heroPhoto}>
+          <img src='/prof.jpg' alt='I AM IRA' />
         </div>
       </div>
     </section>
