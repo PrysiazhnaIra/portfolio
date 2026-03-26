@@ -5,7 +5,7 @@
     "picture": "/imagine.jpg",
     "linkPage": "https://react-bootstrap-practice-coral.vercel.app/",
     "linkGithub": "https://github.com/PrysiazhnaIra/React_Bootstrap_practice",
-    "skills": ["React.js", "Bootstrap", "Vite", "styled-components"],
+    "skills": ["React", "Bootstrap", "Vite", "Styled-Components", "GitHub", "Vercel"],
     "description": "This project created for practice React, Bootstrap and styled-components."
   },
   {
@@ -14,7 +14,7 @@
     "picture": "/lingo.jpg",
     "linkPage": "https://lingo-70ed2.web.app/",
     "linkGithub": "https://github.com/PrysiazhnaIra/Lingo",
-    "skills": ["React.js", "TypeScript", "Firebase", "Vite", "Formik", "Yup"],
+    "skills": ["React", "TypeScript", "Firebase", "Vite", "Formik", "Yup", "GitHub", "Vercel"],
     "description": "This project is a React-based web application designed for a company that offers online language learning services. The app consists of three pages, featuring user authentication, teacher listings, and a favorites section. Below, you'll find an overview of the project's purpose, core technologies, and functionality."
   },
   {
@@ -32,7 +32,7 @@
     "picture": "/selva.jpg",
     "linkPage": "https://test-tau-seven-62.vercel.app/",
     "linkGithub": "https://github.com/PrysiazhnaIra/test",
-    "skills": ["React.js", "TypeScript", "Axios", "Vite"],
+    "skills": ["React", "TypeScript", "Axios", "Vite", "GitHub", "Vercel"],
     "description": "Meal Explorer is a React app that fetches meal data from an external API. The Menu page displays the first 5 meals, with a search bar that fetches matching meals as the user types. A loading indicator appears during data fetch, and user-friendly error messages are shown on failure. The Home page includes navigation, a banner, general info, top 3 meals, a MORE button to load additional meals, and contact details."
   },
   {
@@ -41,29 +41,57 @@
     "picture": "/camper.jpg",
     "linkPage": "https://camper-hire.vercel.app/",
     "linkGithub": "https://github.com/PrysiazhnaIra/CamperHire",
-    "skills": ["React.js", "Redux.js", "Axios", "Vite", "Formik"],
+    "skills": ["React", "Redux", "Axios", "Vite", "Formik", "GitHub", "Vercel"],
     "description": "TravelTrucks is a web application designed for a camper rental company. This project implements the frontend of the application using modern web technologies to provide an intuitive and user-friendly experience. Users can browse available campers, filter them based on specific criteria, view detailed camper pages with reviews, and book campers directly through the website."
   },
   {
     "id": "6",
     "name": "Pet-Friendly",
     "picture": "/pet.jpg",
-    "linkPage": "https://pet-love-three-theta.vercel.app/home",
+    "linkPage": "https://pet-love-three-theta.vercel.app/",
     "linkGithub": "https://github.com/PrysiazhnaIra/PetLove",
-    "skills": ["JavaScript", "CSS", "HTML", "Vite", "GitHub"],
-    "description": "This project is a resume website designed to look great on all devices, from phones to computers. The site has an interactive section where I answer common interview questions using a frequently asked questions (FAQ) library."
+    "skills": ["React", "Redux", "TypeScript", "Axios", "Vite", "GitHub", "Figma"],
+    "description": "This project is a resume website designed to look great on all devices, from phones to computers. It is now under development."
   },
   {
     "id": "7",
+    "name": "Vocab Builder",
+    "picture": "/vocab.jpg",
+    "linkPage": "https://vocab-builder-xi.vercel.app/login",
+    "linkGithub": "https://github.com/PrysiazhnaIra/VocabBuilder",
+    "skills": ["React", "TypeScript", "Redux", "Axios", "Formik", "Yup", "Vite", "GitHub", "Figma"],
+    "description": "A vocabulary building app to help you learn and retain new words effectively."
+  },
+  {
+    "id": "8",
     "name": "Flick Focus",
     "picture": "/movie.jpg",
     "linkPage": "https://flick-focus.vercel.app/",
     "linkGithub": "https://github.com/PrysiazhnaIra/FlickFocus",
-    "skills": ["React.js", "JavaScript", "CSS Flexbox", "HTML", "grid", "Vercel", "Vite", "GitHub"],
+    "skills": ["React", "JavaScript", "CSS", "grid", "Vercel", "Vite", "GitHub"],
     "description": "This project is a movie app that allows users to search for movies by title and view movie details. It uses the TMDB API to fetch movie data."
   },
   {
-    "id": "8",
+    "id": "9",
+    "name": "Quiz",
+    "picture": "/quiz.jpg",
+    "linkPage": "https://quiz-pi-ecru.vercel.app/",
+    "linkGithub": "https://github.com/PrysiazhnaIra/quiz",
+    "skills": ["React", "Algolia", "Contentful", "Vercel", "Vite", "GitHub"],
+    "description": "A premium, multi-step quiz application. It features dynamic content loading from Contentful and a results processing simulation (integratable with Algolia)."
+  },
+
+  {
+    "id": "10",
+    "name": "Vegetable Store",
+    "picture": "/vegetables.jpg",
+    "linkPage": "https://prysiazhnaira.github.io/VegetableStore/",
+    "linkGithub": "https://github.com/PrysiazhnaIra/VegetableStore",
+    "skills": ["JavaScript", "CSS", "HTML", "Figma", "Git", "GitHub"],
+    "description": "The project was developed for an online vegetable store and is fully responsive, adapting to various screen sizes. It includes features for selecting and adding products to the cart. A contact form with effective validation was created for easy communication with the store. Libraries were utilized to provide clear notifications about user actions and their outcomes."
+  },
+  {
+    "id": "11",
     "name": "Web Studio",
     "picture": "/web.jpg",
     "linkPage": "https://prysiazhnaira.github.io/goit-markup-hw-06/#contacts",
@@ -72,7 +100,7 @@
     "description": "Developed a responsive landing page for WebStudio, optimized for various screen sizes to enhance and streamline the user experience. The page includes a service order form, allowing users to easily fill out and submit their requests. Implemented real-time form validation and user notifications using the izitoast library to ensure accurate and user-friendly interactions. Key Features: Responsive design adaptable to multiple screen sizes; service order form with real-time validation; user notifications via izitoast library."
   },
   {
-    "id": "9",
+    "id": "12",
     "name": "About Me",
     "picture": "/aboutMe.jpeg",
     "linkPage": "https://prysiazhnaira.github.io/AboutMe/",
@@ -81,7 +109,7 @@
     "description": "This project is a resume website designed to look great on all devices, from phones to computers. The site has an interactive section where I answer common interview questions using a frequently asked questions (FAQ) library."
   },
   {
-    "id": "10",
+    "id": "13",
     "name": "Beauty Zone",
     "picture": "/beauty.jpg",
     "linkPage": "https://beauty-zone-phi.vercel.app/",
@@ -90,7 +118,7 @@
     "description": "The project was developed for an online vegetable store and is fully responsive, adapting to various screen sizes. It includes features for selecting and adding products to the cart. A contact form with effective validation was created for easy communication with the store. Libraries were utilized to provide clear notifications about user actions and their outcomes."
   },
   {
-    "id": "11",
+    "id": "14",
     "name": "Chocolate",
     "picture": "/chocolate.jpeg",
     "linkPage": "https://prysiazhnaira.github.io/Chocolate/",
@@ -99,7 +127,7 @@
     "description": "A dynamic and responsive landing page for Chocolate, ensuring optimal performance across various screen sizes. The page provides a delightful user experience with features like smooth scrolling, well-placed anchor links, and real-time form validation. Additionally, user notifications are integrated to guide and assist users troughout their interactions."
   },
   {
-    "id": "12",
+    "id": "15",
     "name": "GGB",
     "picture": "/band.jpg",
     "linkPage": "https://gand-g-band.vercel.app/",
