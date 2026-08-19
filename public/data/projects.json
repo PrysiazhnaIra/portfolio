@@ -134,5 +134,23 @@
     "linkGithub": "https://github.com/PrysiazhnaIra/GandGBand",
     "skills": ["JavaScript", "CSS", "HTML", "GitHub", "Git", "Adobe Photoshop"],
     "description": "This project is a landing page for a band called GandGBand. It is a responsive website that is designed to look great on all devices, from phones to computers. The site has a modern and stylish design with a focus on user experience. he page includes a variety of features to enhance the user experiencTe, such as smooth scrolling, well-placed anchor links, and real-time form validation. Additionally, user notifications are integrated to guide and assist users throughout their interactions"
+  },
+  {
+    "id": "16",
+    "name": "Task Pro",
+    "picture": "/taskProTeam.png",
+    "linkPage": "https://task-pro-lime.vercel.app/auth/login",
+    "linkGithub": "https://github.com/serhii-vovchenko/task-pro",
+    "skills": ["React", "Redux Toolkit", "Axios", "Vite", "Formik", "GitHub", "Vercel"],
+    "description": "In the project I built and styled form components with validation using React and Redux. Developed login and registration functionality. Integrated Google authentication. Ensured clear error handling."
+  },
+  {
+    "id": "17",
+    "name": "Profile",
+    "picture": "/profileTeam.png",
+    "linkPage": "https://elijah-vakulenko.github.io/avocado-team/",
+    "linkGithub": "https://github.com/Elijah-Vakulenko/avocado-team",
+    "skills": ["JavaScript", "CSS", "HTML", "Git", "GitHub"],
+    "description": "In the project I created the FAQ section. Used semantic HTML for better structure and SEO. Designed an adaptive layout for all screen sizes. Implemented an Accordion library in JavaScript."
   }
 ]
